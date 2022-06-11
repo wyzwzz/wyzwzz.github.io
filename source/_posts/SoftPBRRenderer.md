@@ -17,14 +17,14 @@
 * Support Model Transform And Model Loading Dynamically
 
 ## ScreeShots
-![cerberus](../../SoftPBRRenderer/cerberus.png)
+![cerberus](SoftPBRRenderer/cerberus.png)
 
-![chest](../../chest.png)
+![chest](SoftPBRRenderer/chest.png)
 
-![statue](../../statue.png)
+![statue](SoftPBRRenderer/statue.png)
 
-![muti-models](../../multi-models.png)
+![muti-models](SoftPBRRenderer/multi-models.png)
 
-![statues](../../statues.png)
+![statues](SoftPBRRenderer/statues.png)
 
-![chests](../../chests.png)
+![chests](SoftPBRRenderer/chests.png)
