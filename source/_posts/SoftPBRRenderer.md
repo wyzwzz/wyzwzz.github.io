@@ -5,6 +5,8 @@ title: IBL的一些小结和实现
 简单总结一些关于PBR和IBL的知识点，顺便贴一下自己的实现仓库
 [软光栅实现IBL](https://github.com/wyzwzz/SoftIBLRenderer)
 
+<!-- more -->
+
 # 辐射度量学
 一些定义
 
@@ -82,13 +84,13 @@ $$
 
 这个公式也可以通过推导得到：
 
-    假设 $\theta_{h}$ 是 $\omega_{i}$ 和 $\omega_{o}$ 与半程向量 $\omega_{h}$ 的夹角
+假设 $\theta_{h}$ 是 $\omega_{i}$ 和 $\omega_{o}$ 与半程向量 $\omega_{h}$ 的夹角
 
-    假设 $\theta$ 是 $\omega_{h}$ 与 $n$ 的夹角
+假设 $\theta$ 是 $\omega_{h}$ 与 $n$ 的夹角
 
-    假设 $n$ 是平面的法向量， $a$ 是平面的粗糙度
+假设 $n$ 是平面的法向量， $a$ 是平面的粗糙度
 
-    假设 $\theta_{i}$ 是入射光与平面法向量的夹角，$\theta_{o}$ 是出射光与平面法向量的夹角
+假设 $\theta_{i}$ 是入射光与平面法向量的夹角，$\theta_{o}$ 是出射光与平面法向量的夹角
 
 类似于$d\omega = \sin \theta d\theta d\phi$的关系，对于平面上的法向分布概率函数有以下关系：
 $$
