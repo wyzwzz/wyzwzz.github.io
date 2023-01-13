@@ -293,5 +293,19 @@ $$
 
 这之后迪士尼又推出了Disney Principled BSDF，支持了对透明和半透明的材质，并且将次表面散射从公式中分离，采用Normalized Diffusion BSSRDF，可以结合体介质模型。另外对GTR2的采样结合可视法向量获得更好的效果。这部分的实现待我再好好研究，加入了投射后公式的推导没有那么好理解了，代码中处理也需要更加注意...
 
+## 参考
+1.https://zhuanlan.zhihu.com/p/57771965
+
+2.https://zhuanlan.zhihu.com/p/407007915
+
+3.https://zhuanlan.zhihu.com/p/60977923
+
+4.https://blog.selfshadow.com/publications/
+s2012-shading-course/burley/s2012_pbs_disney_brdf_notes_v3.pdf
+
+5.https://schuttejoe.github.io/post/disneybsdf/
+
+6.http://shihchinw.github.io/2015/07/implementing-disney-principled-brdf-in-arnold.html
+
 ## 附录
 上述的公式都直接给出了结果，不过推导一下，复习微积分还是很有必要的，以及巩固概率论。
